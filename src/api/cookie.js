@@ -1,0 +1,7 @@
+import {request} from '@/utils/request.js'
+
+export const getSetCookie = ()=> {  //设置cookie
+  return request.post('/music/user/setCookie',{
+      "data": 'pgv_pvid=7210995968; pgv_pvi=2623493120; RK=nBb8E/R5w7; ptcz=616da405362988a0e87dc2423fa736912cb388ee7d164f41232aee95bfceb7b5; qqmusic_uin=; qqmusic_fromtag=; pgv_si=s2378866688; tvfe_boss_uuid=e02b05ac9b48049d; pac_uid=1_2580723800; iip=0; pgv_info=ssid=s8405270000&pgvReferrer=; rv2=80345E2D2D972D5E25223B1F6F5A4A37762C38EF7D130940CB; property20=43E40E3ADD6C92629E053B2F05E5A5530C63597A9B2556CEA2603642DA9511695ED7521848DB9929; _qpsvr_localtk=0.9470536590545142; yqq_stat=0; ts_uid=4083980560; ts_refer=github.com/jsososo/qqmusic-cookie-porter; tmeLoginType=2; psrf_qqaccess_token=BAC8864F8D22EDD799199F9E0BC0C62C; euin=ow4FoeSAoiczon**; psrf_qqunionid=; psrf_qqopenid=534BF1879A2FBF129C9C226C9BA144EC; skey=@kUF457Hei; ts_last=y.qq.com/; userAction=1; psrf_musickey_createtime=1619599876; psrf_qqrefresh_token=50D02ADE9AACBE1E23EA6294240620E6; wxunionid=; wxrefresh_token=; qm_keyst=Q_H_L_2GW89260eW9otb5cFdwYGpmelXHvgVvvqiB3OtRcvPMSo0hAfp2wPdl65uM6uHC; qm_keyst=Q_H_L_2GW89260eW9otb5cFdwYGpmelXHvgVvvqiB3OtRcvPMSo0hAfp2wPdl65uM6uHC; uin=2580723800; wxopenid=; qqmusic_key=Q_H_L_2GW89260eW9otb5cFdwYGpmelXHvgVvvqiB3OtRcvPMSo0hAfp2wPdl65uM6uHC; psrf_access_token_expiresAt=1627375876'
+  })
+}
